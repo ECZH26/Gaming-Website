@@ -1,0 +1,5 @@
+
+<!-- The block below sets the design for separator. "Div" are technially divider blocks. -->
+<!-- Treat it as a function. We have to name a class variable. Then set value for class in this case the value is called test1 -->
+<!-- The set value will change how it looks the "div" code would make it into its own block -->
+<!-- Use <div class = test1></div> to use it -->

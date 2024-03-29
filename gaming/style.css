@@ -1,0 +1,200 @@
+/* This makes it so there is no gap, and the div box covers the while page */
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* This is function/class is for image to be on the left of the text/screen */
+.left_img {
+  float: left;
+  clear: left;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+/* This is function/class is for image to be on the right of the text/screen */
+.right_img {
+  float: right;
+  clear: right;
+  margin-left: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 2px;
+}
+
+/* This creates a container that hold 66% of the left side. For login page */
+.left_66p {
+  background-image: url("img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  float:left;
+  color: white;
+  overflow-x: hidden;
+  width:66.6%;
+  height: 100vh;
+  z-index:1;
+  padding:10px;
+  } 
+
+
+/* This creates a container that hold 66% of the left side. For login page */
+.right_33p {
+  background-image: url("img/bg2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  float:right;
+  color: rgb(228, 220, 220);
+  overflow-x: hidden;
+  width:33.4%;
+  height: 100vh;
+  z-index:1;
+  padding:10px;
+  } 
+
+/* The box for register on login page */
+.register_box{
+  border-radius: 25px;
+  background: #252525;
+  padding: 20px;
+  width: 350px;
+  height: 400px;
+  position: relative;
+  top:10%;
+  left:10%;
+  border-style:outset;
+  border-width:5px;
+  border-color: #1F51FF ;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+/* Register button on login page */
+.login_button{
+  height:50px;
+  width:100px;
+  color:white;
+  background:#1F51FF;
+  border-color: #1F51FF ;
+}
+
+/* Login box on login page */
+.login_box{
+  border-radius: 25px;
+  background: #252525;
+  padding: 20px;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  top:40%;
+  left:20%;
+  border-style:outset;
+  border-width:5px;
+  border-color: #1F51FF ;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+}
+
+.center{
+  position:absolute;
+  left: 51.5%;
+  top: 100px;
+  width:200px;
+}
+
+/* Text box on login page */
+.login_text_box{
+  width: 350px;
+  height: 30px;
+  padding: 15px;
+  border-width:5px;
+  border-color: #1F51FF ;
+  border-style:outset;
+}
+
+.banner{
+  background-color: aquamarine;
+  height: 10vh;
+}
+.banner_content{
+  padding: 40px;
+  margin:0;
+  text-align: center;
+  color: #252525;
+}
+.banner_text{
+  flex-grow:1;
+  line-height:1.4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+}
+.g_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.g_box{
+  width:200px;
+  height: 400px;
+  flex-grow: 1;   
+  border: 1px solid black
+  
+}
+.g_text{
+  height: 20%;
+  text-align:center;
+  font-size: 30px;
+  padding: 20px;
+  background-color: lightblue;
+  color:darkblue;
+}
+.g_img{
+  height: 80%;
+}
+.banner{
+  background-color: aquamarine;
+  height: 10vh;
+}
+.banner_content{
+  padding: 40px;
+  margin:0;
+  text-align: center;
+  color: #252525;
+}
+.banner_text{
+  flex-grow:1;
+  line-height:1.4;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 40px;
+}
+.g_container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+}
+.g_box{
+  width:200px;
+  height: 400px;
+  flex-grow: 1;   
+  border: 1px solid black
+  
+}
+.g_text{
+  height: 20%;
+  text-align:center;
+  font-size: 30px;
+  padding: 20px;
+  background-color: lightblue;
+  color:darkblue;
+}
+.g_img{
+  height: 80%;
+}
